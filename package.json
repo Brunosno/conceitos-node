@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "Esse projeto é um conceito básico para entender note",
   "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "node --watch index.js"
   },
   "author": "Bruno Sales",
