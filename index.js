@@ -27,7 +27,8 @@ app.post('/users', async (req, res) => {
         data: {
             email: req.body.email,
             age: req.body.age,
-            name: req.body.name
+            name: req.body.name,
+            phone: req.body.phone
         }
     })
     res.status(201).json(user)
@@ -42,7 +43,8 @@ app.put('/users/:id', async (req, res) => {
         data: {
             email: req.body.email,
             age: req.body.age,
-            name: req.body.name
+            name: req.body.name,
+            phone: req.body.phone
         }
     })
 
